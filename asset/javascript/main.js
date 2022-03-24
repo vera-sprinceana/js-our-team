@@ -34,10 +34,10 @@ let ourTeam=[
 //Milestone 2: stampare i dati all'interno di un contenitore
 // nella pagina html in modo dinamico,
 // creando per ciascun membro del team un elemento che conterrà i suoi dati.
-for(let i=0; i<ourTeam.length; i++){
+ for(let i=0; i<ourTeam.length; i++){
     console.log(ourTeam[i])
-     document.getElementById("containerDati").innerHTML+=`<div class="card"><h3>${ourTeam[i]['nomi']}</h3>   <p>${ourTeam[i]['ruoli']}</p> <p> ${ourTeam[i]['img']}</p></div>`;
-}
+      document.getElementById("containerDati").innerHTML+=`<div class="card"><h3>${ourTeam[i]['nomi']}</h3>   <p>${ourTeam[i]['ruoli']}</p> <p> ${ourTeam[i]['img']}</p></div>`;
+ }
 
 
 
@@ -52,23 +52,3 @@ for(let i=0; i<ourTeam.length; i++){
 
 
 
-    // {
-    //     'nomi':'Barbara Ramos',
-    //     'ruoli':'Social Media Manager',
-    //     'img':'new-team-member-01.jpg'
-    // },
-    // {
-    //     'nomi':'Barbara Ramos',
-    //     'ruoli':'Graphic Designer',
-    //     'img':'new-team-member-02.jpg'
-    // },
-    // {
-    //     'nomi':'Barbara Ramos',
-    //     'ruoli':'Graphic Designer',
-    //     'img':'new-team-member-03.jpg'
-    // },
-    // {
-    //     'nomi':'Barbara Ramos',
-    //     'ruoli':'Graphic Designer',
-    //     'img':'new-team-member-04.jpg'
-    // }

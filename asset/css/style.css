@@ -1,16 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: rgba(245,245,241,255);
+}
+
 .containerCards{
-    height: 80vh;
+    height: 60vh;
     margin: 0 auto;
     display:flex;
     justify-content:center;
     flex-wrap: wrap;
-    background-color: beige;
+   
 }
 
 .card{
-    width:calc(100% / 3);
+    width:calc((100% - 60px)/ 3);
+    margin: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+.container_text{  
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.w_castom{
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 5%;
 }
