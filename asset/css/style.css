@@ -1,0 +1,16 @@
+.containerCards{
+    height: 80vh;
+    margin: 0 auto;
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    background-color: beige;
+}
+
+.card{
+    width:calc(100% / 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
